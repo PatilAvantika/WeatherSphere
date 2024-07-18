@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="project.css">
+</head>
+<body>
+ 
+        <section class="container">
+            <div class="weather-header">
+                <form class="weather-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="city-data" placeholder="Search your city...">
+                </form>
+            </div>
+            <div class="weather-body">
+                <h2 class="weather-city"></h2>
+                <p class="weather-date-time"></p>
+                <div class="weather-data">
+                    <div class="weather-main-data"></div>
+                   <div class="weather-icon">
+                   
+                   </div>
+                   <h2 class="weather-temp"></h2>
+                </div>
+                <div class="weather-min-max">
+                    <p class="weather-min"></p>
+                    <p class="weather-max"></p>
+                </div>
+            </div>
+       
+        
+            <div class="weather-footer">
+                <div class="weather-card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-temperature-three-quarters"></i>
+                       
+                    </div>
+                    <div>
+                    <h5 class="card-heading">Feels Like</h3>
+                    <p class="w_feels"></p>
+                </div>
+                </div>
+                <div class="weather-card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <div>
+                    <h5 class="card-heading">Humidity</h3>
+                    <p class="w_humidity"></p>
+                </div>
+                </div>
+                <div class="weather-card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-wind"></i>
+                    </div>
+                <div>
+                    <h5 class="card-heading">Winds</h3>
+                    <p class="w_winds"></p>
+                </div>
+                </div>
+                <div class="weather-card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-temperature-high"></i>
+                    </div>
+                    <div>
+                    <h5 class="card-heading">Pressure</h3>
+                    <p class="w_pressure card-temp"></p>
+                </div>
+                </div>
+            </div>
+        
+    </section>
+   <script src="project.js"></script>   
+   
+</body>
+</html>
